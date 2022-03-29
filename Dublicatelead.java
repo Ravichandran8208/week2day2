@@ -36,6 +36,7 @@ public class Dublicatelead {
 		    System.out.println(text2);
 		    if(text.equalsIgnoreCase(text2)) {
 		    	System.out.println("lead duplicate");
+			    driver.close();
 		
 		 
 		
