@@ -37,6 +37,7 @@ public class Createcontact {
 		driver.findElement(By.xpath("//input[@value='Update']")).click();
 		driver.getTitle();
 		System.out.println(driver.getTitle());
+		driver.close();
 		
 		
 
